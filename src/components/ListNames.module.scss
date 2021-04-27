@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+  
+    .element {
+        margin: 2rem;
+        cursor: pointer;
+    
+        &:hover {
+            color: peru;
+        }
+    }
+}
